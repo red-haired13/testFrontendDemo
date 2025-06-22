@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32459e75-87d1-400e-b2af-63fe86cf39fc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testFrontend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testFrontend" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testFrontend" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xoSMvGOZqndJpsogCEch4jKgf2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.CalculatorTests.executor": "Run",
+    "Gradle.CalculatorTests.testAdd.executor": "Debug",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SaucedemoCartTest.addCartTestTwice.executor": "Debug",
+    "Gradle.SaucedemoCartTest.checkoutCartTest.executor": "Debug",
+    "Gradle.SaucedemoCartTest.continueCartTest.executor": "Debug",
+    "Gradle.SaucedemoCartTest.executor": "Run",
+    "Gradle.SaucedemoCartTest.removeCartTest.executor": "Debug",
+    "Gradle.SaucedemoCheckCompleteTest.checkoutBackHomeTest.executor": "Debug",
+    "Gradle.SaucedemoCheckCompleteTest.checkoutOverTest.executor": "Debug",
+    "Gradle.SaucedemoCheckOutOverTest.checkoutCartFillingTest.executor": "Debug",
+    "Gradle.SaucedemoCheckOutOverTest.checkoutCheckBackTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartErrorLastNTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartErrorLastNameTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartErrorNSTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartErrorNameTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartErrorZipTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartFillingErrorNameTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartFillingTest.executor": "Debug",
+    "Gradle.SaucedemoCheckoutTest.checkoutCartTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.runLoginIncorrectTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.runLoginLockTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.runLoginTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.saucedemoLoginIncorrectTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.saucedemoLoginLockTest.executor": "Debug",
+    "Gradle.SaucedemoLoginTest.saucedemoLoginTest.executor": "Run",
+    "Gradle.SaucedemoShopCart.addCartTest.executor": "Debug",
+    "Gradle.SaucedemoShopCart.addCartTestTwice.executor": "Debug",
+    "Gradle.SaucedemoShopCart.executor": "Debug",
+    "Gradle.SaucedemoShopCart.removeCartTestTwice.executor": "Debug",
+    "Gradle.SaucedemoShopCartTest.removeCartTestTwice.executor": "Debug",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.SaucedemoCheckCompleteTest.checkoutBackHomeTest">
+    <configuration name="SaucedemoCheckCompleteTest.checkoutBackHomeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SaucedemoCheckCompleteTest.checkoutBackHomeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SaucedemoCheckCompleteTest.checkoutOverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SaucedemoCheckCompleteTest.checkoutOverTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SaucedemoCheckOutOverTest.checkoutCartFillingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SaucedemoCheckOutOverTest.checkoutCartFillingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SaucedemoCheckOutOverTest.checkoutCheckBackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SaucedemoCheckOutOverTest.checkoutCheckBackTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SaucedemoCheckoutTest.checkoutCartErrorZipTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SaucedemoCheckoutTest.checkoutCartErrorZipTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SaucedemoCheckCompleteTest.checkoutBackHomeTest" />
+        <item itemvalue="Gradle.SaucedemoCheckCompleteTest.checkoutOverTest" />
+        <item itemvalue="Gradle.SaucedemoCheckOutOverTest.checkoutCheckBackTest" />
+        <item itemvalue="Gradle.SaucedemoCheckOutOverTest.checkoutCartFillingTest" />
+        <item itemvalue="Gradle.SaucedemoCheckoutTest.checkoutCartErrorZipTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32459e75-87d1-400e-b2af-63fe86cf39fc" name="Changes" comment="" />
+      <created>1748602895480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748602895480</updated>
+    </task>
+    <servers />
+  </component>
+</project>

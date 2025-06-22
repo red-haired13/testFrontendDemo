@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SaucedemoCheckCompleteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-22T16:53:00.282Z" hostname="MacBook-Pro-Ginger.local" time="22.204">
+  <properties/>
+  <testcase name="Возврат на страницу Products после покупки" classname="SaucedemoCheckCompleteTest" time="22.204"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
