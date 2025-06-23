@@ -1,10 +1,10 @@
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class SaucedemoCheckCompleteTest extends BaseTest{
+public class SaucedemoCheckCompleteTest extends BaseTest {
     @Test
     @DisplayName(value = "Проверка завершения покупки")
-    public void checkoutOverTest(){
+    public void checkoutOverTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -24,7 +24,7 @@ public class SaucedemoCheckCompleteTest extends BaseTest{
 
     @Test
     @DisplayName(value = "Возврат на страницу Products после покупки")
-    public void checkoutBackHomeTest(){
+    public void checkoutBackHomeTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();

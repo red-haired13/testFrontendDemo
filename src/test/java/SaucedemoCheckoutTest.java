@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class SaucedemoCheckoutTest extends BaseTest {
     @Test
     @DisplayName(value = "Возврат на форму Корзины")
-    public void checkoutBackPageTest(){
+    public void checkoutBackPageTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -16,9 +16,10 @@ public class SaucedemoCheckoutTest extends BaseTest {
         checkoutPage.clickCancelBtn();
         cartPage.backCartPage();
     }
+
     @Test
     @DisplayName(value = "Заполнение формы на отправку(успешный сценарий)")
-    public void checkoutCartFillingTest(){
+    public void checkoutCartFillingTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -32,9 +33,10 @@ public class SaucedemoCheckoutTest extends BaseTest {
         CheckoutOverPage checkoutOverPage = new CheckoutOverPage();
         checkoutOverPage.checkTitle();
     }
+
     @Test
     @DisplayName(value = "Ошибка не заполнено имя клиента -пустые поля")
-    public void checkoutCartErrorTest(){
+    public void checkoutCartErrorTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -49,7 +51,7 @@ public class SaucedemoCheckoutTest extends BaseTest {
 
     @Test
     @DisplayName(value = "Ошибка не заполнено имя клиента - не заполнено только имя")
-    public void checkoutCartErrorNameTest(){
+    public void checkoutCartErrorNameTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -66,7 +68,7 @@ public class SaucedemoCheckoutTest extends BaseTest {
 
     @Test
     @DisplayName(value = "Ошибка не заполнено имя клиента - не заполнено имя и фамилия")
-    public void checkoutCartErrorNSTest(){
+    public void checkoutCartErrorNSTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -82,7 +84,7 @@ public class SaucedemoCheckoutTest extends BaseTest {
 
     @Test
     @DisplayName(value = "Ошибка не заполнена фамилия клиента - не заполнено фамилия и индекс")
-    public void checkoutCartErrorLastNTest(){
+    public void checkoutCartErrorLastNTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -98,7 +100,7 @@ public class SaucedemoCheckoutTest extends BaseTest {
 
     @Test
     @DisplayName(value = "Ошибка не заполнена фамилия клиента - не заполнена только фамилия ")
-    public void checkoutCartErrorLastNameTest(){
+    public void checkoutCartErrorLastNameTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
@@ -115,7 +117,7 @@ public class SaucedemoCheckoutTest extends BaseTest {
 
     @Test
     @DisplayName(value = "Ошибка не заполнен индекс")
-    public void checkoutCartErrorZipTest(){
+    public void checkoutCartErrorZipTest() {
         loginPage.openPage();
         loginPage.loginAll();
         ProductsPage productsPage = new ProductsPage();
