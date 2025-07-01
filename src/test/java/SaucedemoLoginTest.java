@@ -31,4 +31,15 @@ public class SaucedemoLoginTest extends BaseTest {
         loginPage.login();
         loginPage.lockErrorLogin();
     }
+
+    @Test
+    @DisplayName(value = "Проверка выхода из УЗ")
+    public void saucedemoLogoutTest() {
+        loginPage.loginAll();
+        ProductsPage productsPage = new ProductsPage();
+        productsPage.clickMenuBtn();
+        productsPage.visibleMenu();
+        productsPage.clickLogoutBtn();
+        loginPage.visibleUserName();
+    }
 }

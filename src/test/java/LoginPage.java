@@ -1,6 +1,7 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -47,4 +48,8 @@ public class LoginPage extends BaseTest {
     passwordField.setValue("secret_sauce");
     loginButton.click();
 }
+
+    public void visibleUserName(){
+        usernameField.should(exist);
+    }
 }

@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class ProductsPage extends BaseTest {
-    //private final SelenideElement containerProduct = $("#inventory_container > div > div:nth-child(1)");
     private final SelenideElement addToCard = $("#add-to-cart-sauce-labs-backpack");
     private final SelenideElement addToCardTwo = $("#add-to-cart-sauce-labs-bike-light");
     private final SelenideElement removeToCart = $("#remove-sauce-labs-backpack");
@@ -18,6 +17,10 @@ public class ProductsPage extends BaseTest {
     private final SelenideElement shopCartCon = $("#shopping_cart_container > a");
     private final SelenideElement shopCartItem = $(".shopping_cart_badge");
     private final SelenideElement shopTitle = $("#header_container > div.header_secondary_container > span");
+    private final SelenideElement menuBtn = $("#react-burger-menu-btn");
+    private final SelenideElement menuBtnCon = $("#menu_button_container > div > div.bm-menu-wrap > div.bm-menu > nav");
+    private final SelenideElement closeMenuBtn = $("#react-burger-cross-btn");
+    private final SelenideElement logoutBtn = $("#logout_sidebar_link");
 
 
     public void clickAddToCart() {
@@ -40,6 +43,18 @@ public class ProductsPage extends BaseTest {
         shopCartCon.click();
     }
 
+    public void clickMenuBtn() {
+        menuBtn.click();
+    }
+
+    public void clickLogoutBtn() {
+        logoutBtn.click();
+    }
+
+    public void visibleMenu() {
+        menuBtnCon.should(exist);
+    }
+
     public void searchShopCon() {
 
         shopCartItem.shouldHave(text("1"));
@@ -59,4 +74,6 @@ public class ProductsPage extends BaseTest {
 
         shopTitle.shouldHave(Condition.exactText("Products"));
     }
+
+
 }
