@@ -1,12 +1,8 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.WebElementCondition;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.title;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class ProductsPage extends BaseTest {
@@ -19,7 +15,7 @@ public class ProductsPage extends BaseTest {
     private final SelenideElement shopTitle = $("#header_container > div.header_secondary_container > span");
     private final SelenideElement menuBtn = $("#react-burger-menu-btn");
     private final SelenideElement menuBtnCon = $("#menu_button_container > div > div.bm-menu-wrap > div.bm-menu > nav");
-    private final SelenideElement closeMenuBtn = $("#react-burger-cross-btn");
+    //private final SelenideElement closeMenuBtn = $("#react-burger-cross-btn");
     private final SelenideElement logoutBtn = $("#logout_sidebar_link");
 
 
