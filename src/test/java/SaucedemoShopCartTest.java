@@ -36,4 +36,13 @@ public class SaucedemoShopCartTest extends BaseTest {
         productsPage.clickRemoveCartTwo();
         productsPage.existShopCon();
     }
+    @Test
+    @DisplayName(value = "Закрытие контекстного меню на странице товаров")
+    public void closeMenuTestTwice(){
+        loginPage.openPage();
+        loginPage.loginAll();
+        ProductsPage productsPage = new ProductsPage();
+        productsPage.clickMenuBtn();
+        productsPage.clickCloseMenuBtn();
+    }
 }

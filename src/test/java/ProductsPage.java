@@ -15,7 +15,7 @@ public class ProductsPage extends BaseTest {
     private final SelenideElement shopTitle = $("#header_container > div.header_secondary_container > span");
     private final SelenideElement menuBtn = $("#react-burger-menu-btn");
     private final SelenideElement menuBtnCon = $("#menu_button_container > div > div.bm-menu-wrap > div.bm-menu > nav");
-    //private final SelenideElement closeMenuBtn = $("#react-burger-cross-btn");
+    private final SelenideElement closeMenuBtn = $("#react-burger-cross-btn");
     private final SelenideElement logoutBtn = $("#logout_sidebar_link");
 
 
@@ -27,7 +27,6 @@ public class ProductsPage extends BaseTest {
         addToCard.click();
         addToCardTwo.click();
     }
-
 
     public void clickRemoveCartTwo() {
         removeToCart.click();
@@ -45,6 +44,10 @@ public class ProductsPage extends BaseTest {
 
     public void clickLogoutBtn() {
         logoutBtn.click();
+    }
+
+    public void clickCloseMenuBtn(){
+        closeMenuBtn.click();
     }
 
     public void visibleMenu() {
