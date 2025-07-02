@@ -1,5 +1,5 @@
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import org.example.ConfProperties;
 
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
@@ -11,14 +11,12 @@ public class LoginPage extends BaseTest {
     private final SelenideElement loginButton = $("#login-button");
     private final SelenideElement errorMessage = $("#login_button_container");
 
-
-    public void openPage() {
-        String URL = "https://www.saucedemo.com/";
-        Selenide.open(URL);
+    public void openPage(){
+        open(ConfProperties.getProperty("URL"));
     }
 
     public void logoutPage() {
-        Selenide.closeWebDriver();
+        closeWebDriver();
     }
 
     public void setUsername(String username) {
@@ -43,13 +41,14 @@ public class LoginPage extends BaseTest {
     public void lockErrorLogin() {
         errorMessage.shouldHave(text("Epic sadface: Sorry, this user has been locked out."));
     }
-    public void loginAll(){
-    usernameField.setValue("standard_user");
-    passwordField.setValue("secret_sauce");
-    loginButton.click();
-}
 
-    public void visibleUserName(){
+    public void loginAll() {
+        usernameField.setValue(ConfProperties.getProperty("username"));
+        passwordField.setValue(ConfProperties.getProperty("password"));
+        loginButton.click();
+    }
+
+    public void visibleUserName() {
         usernameField.should(exist);
     }
 }
