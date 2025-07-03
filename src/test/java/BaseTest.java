@@ -5,8 +5,6 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class BaseTest {
     public LoginPage loginPage;
-    public ProductsPage productsPage;
-
     @BeforeAll
     public static void setUp() {
         Configuration.browser = "chrome";
